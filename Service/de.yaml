@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-demo
+  labels:
+    app: nginx-demo
+    env: dev
+    version: v1.0.1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx-demo
+      env: dev
+      version: v1.0.1
+  template:
+    metadata:
+      labels:
+        app: nginx-demo
+        env: dev
+        version: v1.0.1
+    spec:
+      containers:
+        - name: alpine
+          image: alpine:latest
+          command: ["sh", "-c", "while true; do  date >> /var/log/index.html; sleep 10; done"]
+          volumeMounts:
+            - name: shared-dir
+              mountPath: /var/log
+        - name: nginx-demo
+          image: nginx:latest
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - name: shared-dir
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: shared-dir
+          emptyDir: {}

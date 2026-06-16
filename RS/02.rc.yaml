@@ -1,0 +1,34 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: rc-example
+spec:
+  replicas: 3
+  selector:
+    app: rc-example
+  template:
+    metadata:
+      name: rc-example-multi
+      labels:
+        app: rc-example
+        env: dev
+        version: v1.0.0
+    spec:
+      containers:
+        - name: rc-example
+          image: alpine
+          command: ["/bin/sh"]
+          args: ["-c", "while true; do date >> /var/log/index.html; sleep 1; done"]
+          volumeMounts:
+              - name: share-data
+                mountPath: /var/log
+        - name: server-data
+          image: nginx
+          ports:
+              - containerPort: 80
+          volumeMounts:
+              - name: share-data
+                mountPath: /usr/share/nginx/html
+      volumes:
+          - name: share-data
+            emptyDir: {}

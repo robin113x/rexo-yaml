@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: alpine-cronjob
+spec:
+  concurrencyPolicy: Allow
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      ttlSecondsAfterFinished: 5
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+          - name: alpine
+            image: alpine:3.14
+            imagePullPolicy: IfNotPresent
+            command: ["/bin/sh", "-c", "echo 'Hello from Alpine'"]

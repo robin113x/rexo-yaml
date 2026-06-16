@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: alpine-job
+spec:
+  ttlSecondsAfterFinished: 300
+  backoffLimit: 3
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: alpine
+        image: alpine:3.14
+        imagePullPolicy: IfNotPresent
+        command: ["sh", "-c", "echo 'Hello, Alpine!'"]
