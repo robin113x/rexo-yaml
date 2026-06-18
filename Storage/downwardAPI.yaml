@@ -1,8 +1,36 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name:
+  name: downward-api-demo
+  labels:
+    app: robin-app
+    env: dev
 spec:
   containers:
-    - name:
-      image:
+    - name: downward-api-demo
+      image: nginx
+      volumeMounts:
+        - name: downward-api-volume
+          mountPath: /etc/downward-api
+  volumes:
+    - name: downward-api-volume
+      downwardAPI:
+        items:
+          - path: "name"
+            fieldRef:
+              fieldPath: metadata.name
+          - path: "namespace"
+            fieldRef:
+              fieldPath: metadata.namespace
+          - path: "labels"
+            fieldRef:
+              fieldPath: metadata.labels
+          - path: "app"
+            fieldRef:
+              fieldPath: metadata.labels.app
+          - path: "env"
+            fieldRef:
+              fieldPath: metadata.labels['env']
+          - path: "annotations"
+            fieldRef:
+              fieldPath: metadata.annotations
