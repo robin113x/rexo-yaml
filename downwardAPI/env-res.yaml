@@ -46,7 +46,7 @@ spec:
             - name: pod_name
               valueFrom:
                 fieldRef:
-                  resource: metadata.name
+                  : metadata.name
             - name: ns_name
               valueFrom:
                 fieldRef:
