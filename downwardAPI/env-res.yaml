@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: env-var-deployment
 spec:
-  replicas: 
+  replicas: 1
   selector:
     matchLabels:
-      app: 
+      app: env-var-app
   template:
     metadata:
       labels:
