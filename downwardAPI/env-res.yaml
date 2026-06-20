@@ -20,7 +20,7 @@ spec:
               memory: "128Mi"
               cpu: "200m"
             limits:
-              memory: "256Mi"
+              memory: "257Mi"
               cpu: "500m"
           env:
             - name: cpu_limit
