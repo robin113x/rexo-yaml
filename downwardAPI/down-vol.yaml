@@ -31,3 +31,4 @@ spec:
               - path: "pod-namespace"
                 fieldRef:
                   fieldPath: metadata.namespace
+                  
