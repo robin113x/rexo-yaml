@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: env-var-app
+      app: env-res-app
   template:
     metadata:
       labels:
