@@ -4,4 +4,6 @@ metadata:
   labels:
     app: vol-res-app
 spec:
-  
+  containers:
+    - name: 
+      image: 
