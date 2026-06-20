@@ -50,6 +50,6 @@ spec:
                   resource: pod.name
             - name: ns_name
               valueFrom:
-                f`ieldRef:
+                fieldRef:
                   containerName: busybox-container
                   resource: metadata.namespace
