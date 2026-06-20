@@ -33,8 +33,13 @@ spec:
                 resourceFieldRef:
                   containerName: busybox-container
                   resource: limits.memory
-            - name: 
+            - name: cpu_request
               valueFrom:
                 resourceFieldRef:
                   containerName: busybox-container
-                  resource: limits.cpu
+                  resource: requests.cpu
+            - name: memory_request
+              valueFrom:
+                resourceFieldRef:
+                  containerName: busybox-container
+                  resource: requests.memory
