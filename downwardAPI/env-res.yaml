@@ -15,4 +15,7 @@ spec:
       containers:
         - name: busybox-container
           image: busybox
-          
+          resources:
+            requests:
+              memory: ""
+              cpu: ""
