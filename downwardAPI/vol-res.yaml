@@ -36,5 +36,10 @@ spec:
                 fieldRef:
                   fieldPath: metadata.name
               - path: pod-res
-                
-                  fieldPath: resources
+                resourceFieldRef:
+                  containerName: vol-res-app
+                  resource: limits.memory
+              - path: pod-res-cpu
+                resourceFieldRef:
+                  containerName: vol-res-app
+                  resource: limits.cpu
