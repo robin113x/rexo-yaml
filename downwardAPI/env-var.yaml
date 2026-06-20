@@ -15,7 +15,7 @@ spec:
       containers:
         - name: env-var
           image: nginx
-          command: ["-c","/bin/sh", ""]
+          command: ["-c","/bin/sh", "echo $"]
           env:
             - name: pod_name
               valueFrom:
