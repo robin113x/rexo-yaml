@@ -41,4 +41,4 @@ spec:
             - name: env_type
               valueFrom:
                 fieldRef:
-                  fieldPath: metadata.labels[typ]
+                  fieldPath: metadata.labels['type']
