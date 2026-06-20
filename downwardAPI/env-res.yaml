@@ -9,7 +9,7 @@ spec:
       app: env-res-app
   template:
     metadata:
-      
+      name: env-res-app
       labels:
         app: env-res-app
     spec:
