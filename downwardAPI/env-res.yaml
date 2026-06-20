@@ -45,11 +45,11 @@ spec:
                   resource: requests.memory
             - name: pod_name
               valueFrom:
-                FieldRef:
+                fieldRef:
                   containerName: busybox-container
                   resource: pod.name
             - name: ns_name
               valueFrom:
-                resourceFieldRef:
+                f`ieldRef:
                   containerName: busybox-container
                   resource: metadata.namespace
