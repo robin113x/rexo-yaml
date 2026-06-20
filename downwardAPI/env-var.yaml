@@ -11,7 +11,7 @@ spec:
     metadata:
       labels:
         app: env-var
-        version: 
+        version: v1.
     spec:
       containers:
         - name: env-var
