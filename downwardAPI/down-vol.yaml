@@ -15,5 +15,19 @@ spec:
       containers:
         - name: downward-api
           image: nginx
-          ports:
-            - containerPort:
+          volumeMounts:
+            - name: downward-api-volume
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: downward-api-volume
+          downwardAPI:
+            items:
+              - path: "pod-name"
+                fieldRef:
+                  fieldPath: metadata.name
+              - path: "pod-ip"
+                fieldRef:
+                  fieldPath: status.podIP
+              - path: "pod-namespace"
+                fieldRef:
+                  fieldPath: metadata.namespace
