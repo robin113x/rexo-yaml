@@ -2,10 +2,3 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: env-var-deployment
-spec:
-  containers:
-    - name: 
-      image: 
-      env:
-        - name: 
-          value: 
