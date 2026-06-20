@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: env-var
-          image: nginxo
+          image: nginx
+          command: ["nginx", "-g", "daemon off;"]
           env:
             - name: pod_name
               valueFrom:
