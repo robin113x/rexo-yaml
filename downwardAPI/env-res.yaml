@@ -26,7 +26,6 @@ spec:
             - name: cpu_limit
               valueFrom:
                 resourceFieldRef:
-                  containerName: busybox-container
                   resource: limits.cpu
             - name: memory_limit
               valueFrom:
