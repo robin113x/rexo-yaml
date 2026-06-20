@@ -16,5 +16,7 @@ spec:
         - name: env-var
           image: nginx
           env:
-            - name: 
-              value: 
+            - name: pod_name
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
