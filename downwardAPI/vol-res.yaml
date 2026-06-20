@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
         - name: vol-res-app
-          image: vol-res-app:lates
+          image: 
