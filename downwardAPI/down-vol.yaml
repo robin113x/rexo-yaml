@@ -31,4 +31,6 @@ spec:
               - path: "pod-namespace"
                 fieldRef:
                   fieldPath: metadata.namespace
-                  
+              - path: "pod-annotations"
+                fieldRef:
+                  fieldPath: metadata.a
