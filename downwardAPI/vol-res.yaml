@@ -32,6 +32,6 @@ spec:
         - name: vol-res-volume
           downwardAPI:
             items:
-              - path: 
+              - path: pod-name	
                 fieldRef:
                   fieldPath: metadata.name
