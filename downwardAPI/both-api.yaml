@@ -9,9 +9,7 @@ spec:
     - name: busybox
       image: busybox
       command:
-        - sh
-        - -c
-        - sleep 3600
+        -
 
       # Environment Variables
       env:
