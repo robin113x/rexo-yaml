@@ -28,7 +28,5 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: status.podIP
-            - name: pod_port
-              valueFrom:
-                fieldRef:
-                  fieldPat
+
+                  
