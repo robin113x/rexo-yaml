@@ -32,7 +32,12 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.uid
-            - name: pod_s
+            - name: pod_service_account
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.serviceAccountName
+
+            - name: pod_
               valueFrom:
                 fieldRef:
                   fieldPath: 
