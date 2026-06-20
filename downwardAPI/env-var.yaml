@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: env-var
-          image: nginx
+          image: nginxo
           env:
             - name: pod_name
               valueFrom:
