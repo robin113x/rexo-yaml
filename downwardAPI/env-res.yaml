@@ -48,7 +48,7 @@ spec:
                 resourceFieldRef:
                   containerName: busybox-container
                   resource: pod.name
-            - name: node_name
+            - name: ns_name
               valueFrom:
                 resourceFieldRef:
                   containerName: busybox-container
