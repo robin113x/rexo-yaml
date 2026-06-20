@@ -47,8 +47,8 @@ spec:
             - name: pod_name
               valueFrom:
                 fieldRef:
-                  fieldP: metadata.name
+                  fieldPath: metadata.name
             - name: ns_name
               valueFrom:
                 fieldRef:
-                  field: metadata.namespace
+                  fieldPath: metadata.namespace
