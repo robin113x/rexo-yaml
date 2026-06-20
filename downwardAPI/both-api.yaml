@@ -9,7 +9,9 @@ spec:
     - name: busybox
       image: busybox
       command:
-        -
+        - sh
+        - -c
+        - 
 
       # Environment Variables
       env:
