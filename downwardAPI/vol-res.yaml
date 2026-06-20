@@ -30,4 +30,8 @@ spec:
               mountPath: /tmp/rex
       volumes:
         - name: vol-res-volume
-          
+          downwardAPI:
+            items:
+              - path: 
+                fieldRef:
+                  fieldPath: metadata.name
