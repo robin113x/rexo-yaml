@@ -12,7 +12,7 @@ spec:
       labels:
         app: env-var
         version: v1.0.1
-        type: 
+        type: D
     spec:
       containers:
         - name: env-var
