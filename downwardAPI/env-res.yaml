@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: env-var-container
-          image: 
+          image: busy
           ports:
             - containerPort: 
