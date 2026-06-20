@@ -20,7 +20,7 @@ spec:
           image: nginx
           volumeMounts:
             - name: vol-res-volume
-              mountPath: /usr/share/nginx/html
+              mountPath: 
       volumes:
         - name: 
           emptyDir: {}
