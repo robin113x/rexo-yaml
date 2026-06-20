@@ -42,3 +42,7 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.labels['type']
+            - name: env_version
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.labels['vers
