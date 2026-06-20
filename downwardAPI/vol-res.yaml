@@ -1,1 +1,20 @@
 apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vol-res-app
+  labels:
+    app: vol-res-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vol-res-app
+  template:
+    metadata:
+      name: vol-res-app
+      labels:
+        app: vol-res-app
+    spec:
+      containers:
+        - name: vol-res-app
+          image: 
