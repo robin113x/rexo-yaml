@@ -29,5 +29,5 @@ spec:
             - name: vol-res-volume
               mountPath: /tmp/rex
       volumes:
-        - name: 
+        - name: vol-res-volume
           emptyDir: {}
