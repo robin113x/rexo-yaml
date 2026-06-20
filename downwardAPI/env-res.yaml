@@ -51,5 +51,4 @@ spec:
             - name: ns_name
               valueFrom:
                 fieldRef:
-                  containerName: busybox-container
                   resource: metadata.namespace
