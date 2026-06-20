@@ -15,5 +15,3 @@ spec:
       containers:
         - name: busybox-container
           image: busybox
-          ports:
-            - containerPort: 
