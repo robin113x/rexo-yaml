@@ -17,5 +17,5 @@ spec:
           image: busybox
           resources:
             requests:
-              memory: ""
-              cpu: ""
+              memory: "128Mi"
+              cpu: "500m"
