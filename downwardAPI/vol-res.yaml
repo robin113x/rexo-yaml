@@ -18,10 +18,10 @@ spec:
       containers:
         - name: vol-res-app
           image: nginx
+          re
           volumeMounts:
             - name: vol-res-volume
               mountPath: /tmp/rex
-    
       volumes:
         - name: 
           emptyDir: {}
