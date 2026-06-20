@@ -11,7 +11,7 @@ spec:
       command:
         - sh
         - -c
-        - 
+        - while true; do echo "Hello from busybox"; sleep 30; done
 
       # Environment Variables
       env:
