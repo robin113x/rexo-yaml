@@ -52,4 +52,4 @@ spec:
               valueFrom:
                 resourceFieldRef:
                   containerName: busybox-container
-                  resource: ,
+                  resource: metadata.namespace
