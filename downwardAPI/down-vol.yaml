@@ -17,7 +17,7 @@ spec:
           image: nginx
           volumeMounts:
             - name: downward-api-volume
-              mountPath: /tmp/po
+              mountPath: /tmp/pod_info
       volumes:
         - name: downward-api-volume
           downwardAPI:
