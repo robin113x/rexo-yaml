@@ -24,4 +24,8 @@ spec:
               cpu: "500m"
           env:
             - name: cpu_limit
-              value: "500
+              valueFrom:
+                resourceFieldRef:
+                  containerName: busybox-container
+                  resource: limits.cpu
+                  
