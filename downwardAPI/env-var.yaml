@@ -3,3 +3,18 @@ kind: Deployment
 metadata:
   name: env-var-deployment
 spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: env-var
+  template:
+    metadata:
+      labels:
+        app: env-var
+    spec:
+      containers:
+        - name: env-var
+          image: nginx
+          env:
+            - name: 
+              value: 
