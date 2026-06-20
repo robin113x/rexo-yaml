@@ -43,4 +43,8 @@ spec:
                 resourceFieldRef:
                   containerName: busybox-container
                   resource: requests.memory
-                  
+            - name: 
+              valueFrom:
+                resourceFieldRef:
+                  containerName: busybox-container
+                  resource: 
