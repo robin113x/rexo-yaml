@@ -25,7 +25,7 @@ spec:
               - path: "pod-name"
                 fieldRef:
                   fieldPath: metadata.name
-              - path: "pod-"
+              - path: "pod-anno"
                 fieldRef:
                   fieldPath: metadata.annotations
               - path: "pod-namespace"
