@@ -15,7 +15,7 @@ spec:
       containers:
         - name: busybox-container
           image: busybox
-          command: ["sh", "-c", ""]
+          command: ["sh", "-c", "while true; do echo 'Hello from busybox'; sleep 10; done"]
           resources:
             requests:
               memory: "128Mi"
