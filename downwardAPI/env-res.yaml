@@ -43,7 +43,7 @@ spec:
                 resourceFieldRef:
                   containerName: busybox-container
                   resource: requests.memory
-            - name: 
+            - name: pod_name
               valueFrom:
                 resourceFieldRef:
                   containerName: busybox-container
