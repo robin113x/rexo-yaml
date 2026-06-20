@@ -18,7 +18,6 @@ spec:
           command:
             - sh
             - -c
-            
             - echo $pod_name $pod_namespace $pod_ip > /tmp/env-var.log
           env:
             - name: pod_name
