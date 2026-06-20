@@ -20,7 +20,7 @@ spec:
           image: nginx
           volumeMounts:
             - name: vol-res-volume
-              mountPath: 
+              mountPath: /tmp/
       volumes:
         - name: 
           emptyDir: {}
