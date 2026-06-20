@@ -36,5 +36,5 @@ spec:
                 fieldRef:
                   fieldPath: metadata.name
               - path: pod-res
-                fieldRef:
+                
                   fieldPath: resources
