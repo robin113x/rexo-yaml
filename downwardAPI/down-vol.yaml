@@ -1,2 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
+metadata:
+  name: downward-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: downward-rex
+  template:
+    metadata:
+      labels:
+        app: downward-rex
+    spec:
+      containers:
+        - name: downward-api
+          image: nginx
+          ports:
+            - containerPort:
