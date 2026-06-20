@@ -17,7 +17,7 @@ spec:
           image: nginx
           volumeMounts:
             - name: downward-api-volume
-              mountPath: /usr/share/nginx/html
+              mountPath: /usr/share/nginx/ht
       volumes:
         - name: downward-api-volume
           downwardAPI:
