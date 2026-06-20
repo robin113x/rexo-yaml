@@ -18,7 +18,13 @@ spec:
       containers:
         - name: vol-res-app
           image: nginx
-          re
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
           volumeMounts:
             - name: vol-res-volume
               mountPath: /tmp/rex
