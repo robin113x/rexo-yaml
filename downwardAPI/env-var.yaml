@@ -38,7 +38,7 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: spec.serviceAccountName
-            - name: env_
+            - name: env_type
               valueFrom:
                 fieldRef:
-                  fieldPath: 
+                  fieldPath: metadata.labels.typ
