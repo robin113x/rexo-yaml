@@ -1,1 +1,7 @@
-pi
+apiVersion: v1kind: Pod
+metadata:
+  name: vol-res-app
+  labels:
+    app: vol-res-app
+spec:
+  
