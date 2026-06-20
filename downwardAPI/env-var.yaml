@@ -31,4 +31,4 @@ spec:
             - name: pod_port
               valueFrom:
                 fieldRef:
-                  fieldPath: 
+                  fieldPat
