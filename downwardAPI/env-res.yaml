@@ -15,7 +15,7 @@ spec:
       containers:
         - name: busybox-container
           image: busybox
-          0
+          command: ["sh", "-c", ""]
           resources:
             requests:
               memory: "128Mi"
