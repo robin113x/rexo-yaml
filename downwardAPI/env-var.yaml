@@ -15,7 +15,7 @@ spec:
       containers:
         - name: env-var
           image: nginx
-          command: ["-c","/bin/sh", " 'echo $pod_name $pod_namespace $pod_ip > /tmp/env-var.log'"]
+          command: 
           env:
             - name: pod_name
               valueFrom:
