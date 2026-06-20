@@ -38,7 +38,7 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: spec.serviceAccountName
-            - name: pod_
+            - name: env_
               valueFrom:
                 fieldRef:
                   fieldPath: 
