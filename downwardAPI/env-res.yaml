@@ -13,7 +13,7 @@ spec:
         app: env-res-app
     spec:
       containers:
-        - name: env-var-container
+        - name: bu-container
           image: busybox
           ports:
             - containerPort: 
