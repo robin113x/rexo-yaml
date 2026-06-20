@@ -1,2 +1,19 @@
 apiVersion: apps/v1
-kind
+kind: Deployment
+metadata:
+  name: env-var-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 
+  template:
+    metadata:
+      labels:
+        app: 
+    spec:
+      containers:
+        - name: env-var-container
+          image: 
+          ports:
+            - containerPort: 
