@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: 
+        app: env-res-app
     spec:
       containers:
         - name: env-var-container
