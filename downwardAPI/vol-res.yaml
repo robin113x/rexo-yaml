@@ -17,4 +17,5 @@ spec:
     spec:
       containers:
         - name: vol-res-app
-          image: 
+          image: nginx
+          
