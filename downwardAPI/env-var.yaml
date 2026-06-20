@@ -28,6 +28,13 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: status.podIP
-            -
+            - name: pod_uid
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.uid
+            - name: 
+              valueFrom:
+                fieldRef:
+                  fieldPath: 
 
             
