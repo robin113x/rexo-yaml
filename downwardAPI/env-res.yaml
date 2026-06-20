@@ -23,5 +23,5 @@ spec:
               memory: "256Mi"
               cpu: "500m"
           env:
-            - name: ENV_VAR_NAME
+            - name: 
               value: "env-var-value"
