@@ -7,6 +7,4 @@ spec:
     - name: nginx 
       image: nginx
       imagePullPolicy: IfNotPresent
-      envFrom:
-        - configMapRef:
-            name: myconfig
+      
