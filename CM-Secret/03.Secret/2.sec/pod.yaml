@@ -9,7 +9,7 @@ spec:
       volumeMounts:
         - name: tls-sec
           mountPath: /tmp/ro-tls/
-          s
+          subPath: tls
           
   volumes:
     - name: tls-sec
