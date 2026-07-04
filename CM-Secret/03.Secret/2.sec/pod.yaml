@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-tls-sec
+  name: pod-tls
 spec:
   containers:
     - name: app
