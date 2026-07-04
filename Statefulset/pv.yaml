@@ -6,6 +6,8 @@ spec:
     storageClassName: standard
     accessModes:
         - ReadWriteOnce
-    resources:
-        requests:
-            storage: 1Gi
+    capacity:
+        storage: 1Gi
+    nfs:
+        path: /mnt/nfs/
+        server: 1
