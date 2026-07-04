@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+    name: pv-example
+spec:
+    storageClassName: standard-pv
+    accessModes:
+        - ReadWriteOnce
+    capacity:
+        storage: 1Gi
+    hostPath:
+        path: "/tmp/ro-pv"
+        type: DirectoryOrCreate
