@@ -10,4 +10,4 @@ spec:
         - name: ENV_TYPE
           value: QE-Tets
         - name: ENV_NAME
-          value: 
+          value: Qe01
