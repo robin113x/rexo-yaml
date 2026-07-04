@@ -8,7 +8,7 @@ spec:
           image: nginx
           volumeMounts:
               - name: pvc-example
-                mountPath: /data
+                mountPath: "/usr/share/www/html"
     volumes:
         - name: pvc-example
           persistentVolumeClaim:
