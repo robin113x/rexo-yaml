@@ -7,4 +7,6 @@ spec:
     - name: nginx
       image: nginx
       imagePullPolicy: IfNotPresent
-      env
+      envFrom:
+        - secretRef:
+            name: 
