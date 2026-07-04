@@ -4,5 +4,5 @@ metadata:
   name: myConfig
 data:
   ENV_TYPE: QE
-  ENV_NAME: 
+  ENV_NAME: "Qe01bg"
   
