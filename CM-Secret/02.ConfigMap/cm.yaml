@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: myConfig
 data:
-  DevOps: 
+  DevOps: "Robin"
   ENV_TYPE: QE
   ENV_NAME: "Qe01bg-MiPaaS"
   
