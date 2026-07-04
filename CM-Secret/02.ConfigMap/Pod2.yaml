@@ -9,4 +9,7 @@ spec:
       imagePullPolicy: IfNotPresent
       env:
         - name: ENV_TYPE
-          
+          valueFrom:
+            configMapRef:
+              name: myconfig
+              key: ENV_TYPE
