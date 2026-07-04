@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: node-ubuntu
   labels:
-    app: node-app
+    app: node-ubuntu
 spec:
   containers:
     - name: node-container
