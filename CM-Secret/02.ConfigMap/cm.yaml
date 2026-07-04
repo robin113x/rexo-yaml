@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: myConfig
+  name: myonfig
 data:
   DevOps: "Robin"
   ENV_TYPE: QE
