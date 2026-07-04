@@ -8,5 +8,6 @@ spec:
   containers:
     - name: node-container
       image: nginx
+      
   nodeSelector:
     role: worker
