@@ -8,6 +8,6 @@ spec:
   containers:
     - name: node-container
       image: nginx
-      
+      imagePullPolicy: Always
   nodeSelector:
     role: worker
