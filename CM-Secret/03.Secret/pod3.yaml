@@ -13,4 +13,8 @@ spec:
             secretKeyRef:
               name: mysecret
               key: username
-        
+        - name: PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mysecret
+              key: password
