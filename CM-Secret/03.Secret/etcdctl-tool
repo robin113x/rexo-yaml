@@ -1,5 +1,5 @@
 etcdctl \
   --endpoints=https://127.0.0.1:2379 \
-  --cert= /\
+  --cert= /etc/ky\
   --key= \
   --ca=
