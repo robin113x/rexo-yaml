@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: myconfig
-  immutable: true
+immutable: true
 data:
   DevOps: "Robin"
   ENV_TYPE: QE
