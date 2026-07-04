@@ -1,5 +1,5 @@
 etcdctl \
   --endpoints=https://127.0.0.1:2379 \
   --cert= /etc/kubernetes/pki/etcd/ca.crt \
-  --key= \
-  --ca=
+  --key= /etc/kubernetes/pki/etcd/ca.key \
+  --ca= /etc/kubernetes/pki/etcd/ca.crt
