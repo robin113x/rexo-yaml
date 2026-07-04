@@ -6,7 +6,7 @@ spec:
   containers:
     - name: app
       image: nginx
-      imagePullPolicy: If
+      imagePullPolicy: IfNotPresent
       volumeMounts:
         - name: tls-sec
           mountPath: /tmp/ro-tls/robin.secret
