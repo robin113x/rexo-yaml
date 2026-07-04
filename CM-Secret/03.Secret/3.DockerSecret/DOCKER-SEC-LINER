@@ -1,0 +1,5 @@
+kubectl create secret docker-registry docker-pull-secret \
+  --docker-server=docker.io \
+  --docker-username=robin113x \
+  --docker-password='YOUR_PASSWORD_OR_TOKEN' \
+  --docker-email=robin113x@gmail.com
