@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-    name: pvc-example
+    name: jenkins-home
 spec:
     storageClassName: nfs
     accessModes:
