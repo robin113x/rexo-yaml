@@ -6,3 +6,10 @@ spec:
   containers:
     - name: app
       image: nginx
+      volumeMounts:
+        - name: tls-sec
+          mountPath: /etc/nginx/ssl
+  volumes:
+    - name: tls-sec
+      secret:
+        secretName: tls-sec
