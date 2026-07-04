@@ -8,5 +8,10 @@ spec:
       image: nginx
       imagePullPolicy: IfNotPresent
       volumeMounts:
-        - name: 
-          mountPath: 
+        - name: mysecret
+          mountPath: /etc/secret
+          readOnly: true
+  volumes:
+    - name: mysecret
+      secret:
+        secretName: mysecret
