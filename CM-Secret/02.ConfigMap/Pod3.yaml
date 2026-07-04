@@ -10,6 +10,7 @@ spec:
       volumeMounts:
         - name: myconfig
           mountPath: /etc/config
-      envFrom:
-        - configMapRef:
-            name: myconfig
+  volumes:
+    - name: myconfig
+      configMap:
+        name: myconfig
