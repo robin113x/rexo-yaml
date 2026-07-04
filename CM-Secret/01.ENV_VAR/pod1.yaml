@@ -7,7 +7,7 @@ spec:
       image: nginx
       imagePullPolicy: IfNotPresent
       env:
-        - name: ENV_VAR_NAME
+        - name: ENV
           value: QE-Tets
         - name: 
           value: 
