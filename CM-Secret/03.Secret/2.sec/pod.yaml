@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: app
-      image: nginx
+      image: nginx:la
       volumeMounts:
         - name: tls-sec
           mountPath: /tmp/ro-tls/robin.secret
