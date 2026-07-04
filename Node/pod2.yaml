@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: node-container
-      image: ubuntu
+      image: busybox
       imagePullPolicy: Always
   nodeSelector:
     role: worker
