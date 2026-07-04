@@ -3,8 +3,7 @@
     "docker.io": {
       "username": "robin113x",
       "password": "YOUR_PASSWORD",
-      "email": "robin113x@gmail.com",
-      "auth": "cm9iaW4xMTN4OllPVVJfUEFTU1dPUkQ="
+      "email": "robin113x@gmail.com"
     }
   }
 }
