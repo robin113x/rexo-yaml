@@ -13,7 +13,7 @@ spec:
             configMapKeyRef:
               name: myconfig
               key: ENV_TYPE
-        - name: 
+        - name: ENV_NAME
           valueFrom:
             configMapKeyRef:
               name: myconfig
