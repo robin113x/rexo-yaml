@@ -3,6 +3,6 @@ kind: Secret
 metadata:
   name: mysecret
 type: Opaque
-data:
+stringData:
   username: robin
   password: "Password@123"
