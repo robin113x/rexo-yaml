@@ -7,5 +7,5 @@ spec:
       image: nginx
       imagePullPolicy: IfNotPresent
       env:
-        - name: 
+        - name: ENV_VAR_NAME
           value: 
