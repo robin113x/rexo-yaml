@@ -8,7 +8,7 @@ spec:
   containers:
     - name: node-container
       image: busybox
-      command: ["sh", "-c", "echo 'Hello from BusyBox' && sleep 3600"]
+      command: ["sh", "-c", "while true; do echo 'Hello from BusyBox'; sleep 30; done"]
       imagePullPolicy: Always
   nodeSelector:
     role: worker
