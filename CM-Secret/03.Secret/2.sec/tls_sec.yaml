@@ -4,5 +4,5 @@ metadata:
   name: tls-sec
 type: kubernetes.io/tls
 data:
-  tls.crt: "SDFGHJKLKJHG"
-  tls.key: ""
+  tls.crt: "SDFGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
+  tls.key: "SDFGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
