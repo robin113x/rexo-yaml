@@ -8,7 +8,7 @@ spec:
       image: nginx
       volumeMounts:
         - name: tls-sec
-          mountPath: /tmp/ro-tls/
+          mountPath: /tmp/ro-tls/robin.secret
           subPath: robin-secret
           
   volumes:
