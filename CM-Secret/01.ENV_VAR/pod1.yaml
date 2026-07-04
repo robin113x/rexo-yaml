@@ -8,4 +8,5 @@ spec:
       imagePullPolicy: IfNotPresent
       env:
         - name: ENV_VAR_NAME
-          value: 
+          value: QE-Tets
+        -
