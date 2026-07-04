@@ -1,5 +1,5 @@
 etcdctl \
-  --endpoints=https:// \
+  --endpoints=https://127.0.0.1:2379 \
   --cert= \
   --key= \
   --ca=
