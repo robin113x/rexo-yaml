@@ -4,5 +4,5 @@ metadata:
   name: myConfig
 data:
   ENV_TYPE: QE
-  key2: value2
+  ENV_NAME: 
   
