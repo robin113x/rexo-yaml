@@ -43,4 +43,3 @@ spec:
     nfs:
         path: /mnt/nfs/nginx-03
         server: 192.168.122.131
-        type: DirectoryOrCreate
