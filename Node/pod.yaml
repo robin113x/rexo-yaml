@@ -9,4 +9,5 @@ spec:
     - name: node-container
       image: nginx
   nodeSelector:
+    
     app: node-app
