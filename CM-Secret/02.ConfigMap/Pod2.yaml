@@ -17,6 +17,5 @@ spec:
           valueFrom:
             configMapKeyRef:
               name: myconfig
-              key: 
-             
+              key: ENV_NAME
               
