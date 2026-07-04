@@ -13,3 +13,4 @@ spec:
             configMapRef:
               name: myconfig
               key: ENV_TYPE
+              
