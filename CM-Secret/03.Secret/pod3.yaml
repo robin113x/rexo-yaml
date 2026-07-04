@@ -8,7 +8,7 @@ spec:
       image: nginx
       imagePullPolicy: IfNotPresent
       env:
-        - name: SECRET_KEY
+        - name: USERNAME
           valueFrom:
             secretKeyRef:
               name: mysecret
