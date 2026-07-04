@@ -6,4 +6,4 @@ type: kubernetes.io/tls
 stringData:
   tls.crt: "SDwergfbhrtgbv3FGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
   tls.key: "SsdfggvDFGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
-  robin-sec
+  robin-secret: "hgiegfcviueguighreoiufhewroiuuhf9070rehfiouherduoivh9u3erh"
