@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+    name: pv-example
+spec:
+    storageClassName: nfs
+    accessModes:
+        - ReadWriteMany
+    nfs:
+        path: /var/nfs/jenkins-data
+        server: 192.168.122.131
+        type: DirectoryOrCreate
