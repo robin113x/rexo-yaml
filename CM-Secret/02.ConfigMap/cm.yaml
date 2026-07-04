@@ -1,3 +1,4 @@
-apiVersion: v1kind: ConfigMap
+apiVersion: v1
+kind: ConfigMap
 metadata:
-  name: 
+  name: my
