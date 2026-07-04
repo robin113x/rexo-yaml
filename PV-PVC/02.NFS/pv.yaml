@@ -4,6 +4,8 @@ metadata:
     name: jenkins-pv
 spec:
     storageClassName: nfs
+    capacity:
+        storage: 5Gi
     accessModes:
         - ReadWriteMany
     nfs:
