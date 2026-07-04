@@ -5,4 +5,4 @@ metadata:
 type: Opaque
 data:
   username: robin
-  password: 
+  password: "Password@123"
