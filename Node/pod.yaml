@@ -9,5 +9,5 @@ spec:
     - name: node-container
       image: nginx
   nodeSelector:
-    role: 
+    role: worker
     app: node-app
