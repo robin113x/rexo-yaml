@@ -3,6 +3,6 @@ kind: Secret
 metadata:
   name: tls-sec
 type: kubernetes.io/tls
-data:
+stringData:
   tls.crt: "SDwergfbhrtgbv3FGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
   tls.key: "SsdfggvDFGHJKLKJHGrtyuioplokijhgfgyhuio-0987654eerfgbhnjmjk,klkjhgvcc"
