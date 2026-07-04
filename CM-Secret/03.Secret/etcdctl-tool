@@ -3,3 +3,4 @@ etcdctl \
   --cert= /etc/kubernetes/pki/etcd/server.crt \
   --key= /etc/kubernetes/pki/etcd/server.key \
   --ca= /etc/kubernetes/pki/etcd/ca.crt
+  
