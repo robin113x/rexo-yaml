@@ -9,7 +9,7 @@ spec:
       volumeMounts:
         - name: tls-sec
           mountPath: /tmp/ro-tls/
-          subPath: 
+          subPath: robin-secret
           
   volumes:
     - name: tls-sec
