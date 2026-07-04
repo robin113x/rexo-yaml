@@ -10,7 +10,7 @@ spec:
       env:
         - name: ENV_TYPE
           valueFrom:
-            configMapRef:
+            configMapKeyRef:
               name: myconfig
               key: ENV_TYPE
              
