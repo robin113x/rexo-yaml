@@ -9,4 +9,4 @@ spec:
       imagePullPolicy: IfNotPresent
       envFrom:
         - configMapRef:
-            name: nginx-config
+            name: config
