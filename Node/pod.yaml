@@ -7,4 +7,5 @@ metadata:
 spec:
   containers:
     - name: node-container
-      image: 
+      image: nginx
+      
