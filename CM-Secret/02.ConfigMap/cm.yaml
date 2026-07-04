@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: myConfig
 data:
-  key1: value1
+  ENV_TYPE: value1
   key2: value2
   
