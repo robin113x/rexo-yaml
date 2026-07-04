@@ -3,5 +3,5 @@ metadata:
   name: pod1
 spec:
   containers:
-    - name: 
-      image: 
+    - name: pod1
+      image: nginx
