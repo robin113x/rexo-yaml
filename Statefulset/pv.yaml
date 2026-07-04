@@ -11,7 +11,6 @@ spec:
     nfs:
         path: /mnt/nfs/nginx-01
         server: 192.168.122.131
-        type: DirectoryOrCreate
 
 ---
 apiVersion: v1
@@ -27,7 +26,6 @@ spec:
     nfs:
         path: /mnt/nfs/nginx-02
         server: 192.168.122.131
-        type: DirectoryOrCreate
 
 ---
 apiVersion: v1
