@@ -7,4 +7,9 @@ spec:
     - name: nginx 
       image: nginx
       imagePullPolicy: IfNotPresent
-      
+      volumeMounts:
+        - name: myconfig
+          mountPath: /etc/config
+      envFrom:
+        - configMapRef:
+            name: myconfig
