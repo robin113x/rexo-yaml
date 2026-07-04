@@ -1,6 +1,8 @@
-apiVersion: v1kind: Secret
+apiVersion: v1
+kind: Secret
 metadata:
   name: tls-sec
 type: kubernetes.io/tls
 data:
-  
+  tls.crt: 
+  tls.key: 
