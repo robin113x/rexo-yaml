@@ -11,3 +11,4 @@ spec:
     nfs:
         path: /var/nfs/jenkins-data
         server: 192.168.122.131
+    persistentVolumeReclaimPolicy: Retain
