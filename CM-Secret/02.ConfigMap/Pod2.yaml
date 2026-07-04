@@ -13,5 +13,10 @@ spec:
             configMapKeyRef:
               name: myconfig
               key: ENV_TYPE
+        - name: 
+          valueFrom:
+            configMapKeyRef:
+              name: myconfig
+              key: 
              
               
