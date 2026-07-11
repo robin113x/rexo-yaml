@@ -13,5 +13,5 @@ spec:
     spec:
       containers:
         - name: node-container
-          image: h
+          image: http
           imagePullPolicy: Always
