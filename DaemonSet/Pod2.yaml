@@ -15,5 +15,3 @@ spec:
         - name: node-container
           image: httpd
           imagePullPolicy: Always
-
-#Hello shahsindar bahubali
