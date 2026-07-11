@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: node-daemonset
+      app: sd
   template:
     metadata:
       labels:
