@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: node-daemonset
+spec:
+  selector:
+    matchLabels:
+      app: node-daemonset
+  template:
+    metadata:
+      labels:
+        app: node-daemonset
+    spec:
+      containers:
+        - name: node-container
+          image: nginx
+          imagePullPolicy: Always
