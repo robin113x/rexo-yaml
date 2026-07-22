@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2026-07-22T06:54:52Z"
+  name: my-sa
+  namespace: default
+  resourceVersion: "297983"
+  uid: 6af82906-ca9f-4370-8fe0-cc359c73c85a
