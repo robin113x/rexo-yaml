@@ -11,7 +11,7 @@ spec:
       name: nginx-webapp
       labels:
         app: nginx-webapp
-        
+        name: nginx-webapp
     spec:
       containers:
         - name: nginx-webapp
