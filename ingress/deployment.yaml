@@ -13,5 +13,5 @@ spec:
           image: nginx
         - name: busybox
           image: busybox
-          command: [""]
+          command: ["/"]
           
