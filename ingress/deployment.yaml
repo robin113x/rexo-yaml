@@ -6,7 +6,7 @@ spec:
   replicas: 1
   template:
     metadata:
-      name: 
+      name: nginx-webapp
     spec:
       containers:
         - name: nginx-webapp
