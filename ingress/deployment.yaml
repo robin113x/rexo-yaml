@@ -11,6 +11,12 @@ spec:
       containers:
         - name: nginx-webapp
           image: nginx
+          volumeMounts:
+            - name: nginx-html
+              mountPath: /usr/share/nginx/html
+      volumes:
+        - name: nginx-html
+          emptyDir: {}
         - name: busybox
           image: busybox
           command: ["/bin/sh"]
