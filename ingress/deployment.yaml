@@ -14,5 +14,5 @@ spec:
         - name: busybox
           image: busybox
           command: ["/bin/sh"]
-          args: ["-c", "echo '<h1><[fim-middle]><'"]
+          args: ["-c", "echo '<h1></h1>'"]
          
