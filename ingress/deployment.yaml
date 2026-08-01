@@ -14,5 +14,5 @@ spec:
         - name: busybox
           image: busybox
           command: ["/bin/sh"]
-          args: ["-c", "echo '<h1>Helllo Worls ingress </h1>' "]
+          args: ["-c", "echo '<h1>Helllo Worls ingress </h1>' > "]
          
