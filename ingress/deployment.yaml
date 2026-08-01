@@ -9,5 +9,6 @@ spec:
       name: 
     spec:
       containers:
-        - name: 
-          image: 
+        - name: nginx-webapp
+          image: nginx:1.1
+      
