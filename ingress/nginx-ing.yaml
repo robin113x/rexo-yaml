@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: nginx-webapp
 spec:
+    
   rules:
     - host: nginx-webapp.local
       http:
