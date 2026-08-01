@@ -11,5 +11,6 @@ spec:
       containers:
         - name: nginx-webapp
           image: nginx
-        - name: 
-          image: 
+        - name: busybox
+          image: busybox
+          
