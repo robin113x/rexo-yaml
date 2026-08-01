@@ -4,7 +4,7 @@ metadata:
   name: nginx-webapp
 spec:
   rules:
-    - host: 
+    - host: nginx-webapp.local
       http:
         paths:
           - path: /
