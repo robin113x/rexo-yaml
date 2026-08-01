@@ -10,5 +10,5 @@ spec:
     spec:
       containers:
         - name: nginx-webapp
-          image: nginx:1.1
-      
+          image: nginx
+        -
