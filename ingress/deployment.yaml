@@ -1,0 +1,13 @@
+apiVersion: 
+kind: 
+metadata:
+  name: 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: 
+    spec:
+      containers:
+        - name: 
+          image: 
