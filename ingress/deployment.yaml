@@ -14,5 +14,5 @@ spec:
         - name: busybox
           image: busybox
           command: ["/bin/sh"]
-          args: ["-c", "echo 'hello world'"]
+          args: ["-c", "echo 'hello worl'"]
          
